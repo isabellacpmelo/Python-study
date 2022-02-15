@@ -1,0 +1,16 @@
+# Faça um programa que leia um número inteiro qualquer e mostre na tela a sua tabuada.
+
+i = int(input('Escolha um número inteiro para saber sua tabuada: '))
+print('-'*15)
+print('{}  X  {:2}  =  {:2}'.format(i, 0, i*0))
+print('{}  X  {:2}  =  {:2}'.format(i, 1, i*1))
+print('{}  X  {:2}  =  {:2}'.format(i, 2, i*2))
+print('{}  X  {:2}  =  {:2}'.format(i, 3, i*3))
+print('{}  X  {:2}  =  {:2}'.format(i, 4, i*4))
+print('{}  X  {:2}  =  {:2}'.format(i, 5, i*5))
+print('{}  X  {:2}  =  {:2}'.format(i, 6, i*6))
+print('{}  X  {:2}  =  {:2}'.format(i, 7, i*7))
+print('{}  X  {:2}  =  {:2}'.format(i, 8, i*8))
+print('{}  X  {:2}  =  {:2}'.format(i, 9, i*9))
+print('{}  X  {:2}  =  {:2}'.format(i, 10, i*10))
+print('-'*15)
