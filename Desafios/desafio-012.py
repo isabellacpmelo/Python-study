@@ -1,7 +1,5 @@
 # Faça um algoritmo que leia o preço de um produto e mostre seu novo preço, com 5% de desconto.
+preco = float(input('Digite o preço do produto: R$'))
+novo_preco = preco - (preco * 0.05)
 
-idades = [15, 46, 75, 34, 23]
-total = 0
-for idade in idades:
-    total = total + idade
-print(total)
+print('O produto que custa R${:.2f} fica R${:.2f} com o desconto de 5%.'.format(preco, novo_preco))
